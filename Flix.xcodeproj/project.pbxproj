@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		29E0CD4B2878347500A5095D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD4A2878347500A5095D /* AppDelegate.swift */; };
 		29E0CD4D2878347500A5095D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD4C2878347500A5095D /* SceneDelegate.swift */; };
-		29E0CD4F2878347500A5095D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD4E2878347500A5095D /* ViewController.swift */; };
-		29E0CD522878347500A5095D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E0CD502878347500A5095D /* Main.storyboard */; };
+		29E0CD4F2878347500A5095D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD4E2878347500A5095D /* MainTabBarViewController.swift */; };
 		29E0CD542878347600A5095D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E0CD532878347600A5095D /* Assets.xcassets */; };
 		29E0CD572878347600A5095D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E0CD552878347600A5095D /* LaunchScreen.storyboard */; };
 		29E0CD622878347600A5095D /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD612878347600A5095D /* FlixTests.swift */; };
 		29E0CD6C2878347600A5095D /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD6B2878347600A5095D /* FlixUITests.swift */; };
 		29E0CD6E2878347600A5095D /* FlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD6D2878347600A5095D /* FlixUITestsLaunchTests.swift */; };
+		29E0CD7D287837D400A5095D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD7C287837D400A5095D /* HomeViewController.swift */; };
+		29E0CD7F2878381D00A5095D /* UpcommingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD7E2878381D00A5095D /* UpcommingViewController.swift */; };
+		29E0CD812878384500A5095D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD802878384500A5095D /* SearchViewController.swift */; };
+		29E0CD832878387E00A5095D /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0CD822878387E00A5095D /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		29E0CD472878347500A5095D /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E0CD4A2878347500A5095D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29E0CD4C2878347500A5095D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29E0CD4E2878347500A5095D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29E0CD512878347500A5095D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E0CD4E2878347500A5095D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		29E0CD532878347600A5095D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29E0CD562878347600A5095D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29E0CD582878347600A5095D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		29E0CD672878347600A5095D /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E0CD6B2878347600A5095D /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		29E0CD6D2878347600A5095D /* FlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29E0CD7C287837D400A5095D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		29E0CD7E2878381D00A5095D /* UpcommingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingViewController.swift; sourceTree = "<group>"; };
+		29E0CD802878384500A5095D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		29E0CD822878387E00A5095D /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,10 @@
 		29E0CD492878347500A5095D /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				29E0CD7B2878379300A5095D /* Controllers */,
 				29E0CD4A2878347500A5095D /* AppDelegate.swift */,
 				29E0CD4C2878347500A5095D /* SceneDelegate.swift */,
-				29E0CD4E2878347500A5095D /* ViewController.swift */,
-				29E0CD502878347500A5095D /* Main.storyboard */,
+				29E0CD4E2878347500A5095D /* MainTabBarViewController.swift */,
 				29E0CD532878347600A5095D /* Assets.xcassets */,
 				29E0CD552878347600A5095D /* LaunchScreen.storyboard */,
 				29E0CD582878347600A5095D /* Info.plist */,
@@ -125,6 +131,17 @@
 				29E0CD6D2878347600A5095D /* FlixUITestsLaunchTests.swift */,
 			);
 			path = FlixUITests;
+			sourceTree = "<group>";
+		};
+		29E0CD7B2878379300A5095D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				29E0CD7C287837D400A5095D /* HomeViewController.swift */,
+				29E0CD7E2878381D00A5095D /* UpcommingViewController.swift */,
+				29E0CD802878384500A5095D /* SearchViewController.swift */,
+				29E0CD822878387E00A5095D /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,6 @@
 			files = (
 				29E0CD572878347600A5095D /* LaunchScreen.storyboard in Resources */,
 				29E0CD542878347600A5095D /* Assets.xcassets in Resources */,
-				29E0CD522878347500A5095D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E0CD4F2878347500A5095D /* ViewController.swift in Sources */,
+				29E0CD812878384500A5095D /* SearchViewController.swift in Sources */,
+				29E0CD4F2878347500A5095D /* MainTabBarViewController.swift in Sources */,
+				29E0CD832878387E00A5095D /* DownloadsViewController.swift in Sources */,
 				29E0CD4B2878347500A5095D /* AppDelegate.swift in Sources */,
+				29E0CD7F2878381D00A5095D /* UpcommingViewController.swift in Sources */,
 				29E0CD4D2878347500A5095D /* SceneDelegate.swift in Sources */,
+				29E0CD7D287837D400A5095D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29E0CD502878347500A5095D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29E0CD512878347500A5095D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29E0CD552878347600A5095D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +453,6 @@
 				INFOPLIST_FILE = Flix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +479,6 @@
 				INFOPLIST_FILE = Flix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
