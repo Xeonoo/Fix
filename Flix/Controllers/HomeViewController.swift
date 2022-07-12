@@ -10,8 +10,8 @@ import UIKit
 class HomeViewController: UIViewController {
     
     private let homeFeesTable: UITableView = {
-        let table = UITableView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        let table = UITableView(frame: .zero, style: .grouped)
+        table.register(ColletionsViewTableViewCell .self, forCellReuseIdentifier: ColletionsViewTableViewCell.identifier )
         return table
     }()
 
@@ -33,12 +33,19 @@ class HomeViewController: UIViewController {
 
 
 extension  HomeViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+         return 20
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int ) -> Int {
-        return 20
+        return 1
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for:  indexPath)
-        cell.textLabel?.text = "hello world"
+
+        guard let cell = tableView.dequeueReusableCell(withIdentifier:  ColletionsViewTableViewCell.identifier, for: indexPath  ) as? ColletionsViewTableViewCell  else {
+            return UITableViewCell()
+        }
         return cell
     }
     
